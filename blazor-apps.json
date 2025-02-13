@@ -1,0 +1,32 @@
+[
+  {
+    "link": "https://blazor.art/",
+    "image": "/android-chrome-192x192.png",
+    "name": "BLAZOR.ART",
+    "about": "BLAZOR.ART is a platform to spread awareness, bring Blazor developers together, provide resources and tools to developers to enhance their Blazor skills and to the enterprises to employ Blazor developers with ease and less turnaround time.",
+    "frontend": "Blazor WebAssembly",
+    "backend": "-",
+    "type": "Website, PWA",
+    "hosting": "Netlify"
+  },
+  {
+    "link": "https://onlinetest.online/",
+    "image": "https://onlinetest.online/android-chrome-192x192.png",
+    "name": "Online Test",
+    "about": "an app that gives you free access to test your knowledge in GK, Technology, Mathematics, etc.",
+    "frontend": "Blazor WebAssembly",
+    "backend": "-",
+    "type": "Website, PWA",
+    "hosting": "Linux VPS"
+  },
+  {
+    "link": "https://1-800.biz/",
+    "image": "https://app.1-800.biz/android-chrome-192x192.png",
+    "name": "1-800.BIZ",
+    "about": "1-800.BIZ is a platform that offers organizations to create a digital identity that can help connect with clients effortlessly and constantly.",
+    "frontend": "Blazor WebAssembly",
+    "backend": ".NET, MongoDB, Redis",
+    "type": "Website, PWA",
+    "hosting": "Linux VPS"
+  }
+]
