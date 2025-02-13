@@ -1,0 +1,38 @@
+[
+  {
+    "link": "https://antblazor.com/",
+    "name": "AntBlazor"
+  },
+  {
+    "link": "https://github.com/orgs/Blazored/",
+    "name": "Blazored"
+  },
+  {
+    "link": "https://blazorise.com/",
+    "name": "Blazorise"
+  },
+  {
+    "link": "https://blazorstrap.io/",
+    "name": "BlazorStrap"
+  },
+  {
+    "link": "https://www.fluentui-blazor.net/",
+    "name": "Fluent UI"
+  },
+  {
+    "link": "https://www.matblazor.com/",
+    "name": "MatBlazor"
+  },
+  {
+    "link": "https://mudblazor.com/",
+    "name": "MudBlazor"
+  },
+  {
+    "link": "https://blazor.radzen.com/",
+    "name": "Radzen"
+  },
+  {
+    "link": "https://blazor.art/Tools/Simple-UI",
+    "name": "Sysinfocus simple/ui"
+  }
+]
