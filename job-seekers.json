@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Rahul Hadgal",
+    "country": "India",
+    "overall": "25+ years",
+    "blazor": "5+ years",
+    "jobType": "Consultant",
+    "fulltime": "No",
+    "remote": "Yes",
+    "linkedIn": "https://www.linkedin.com/in/rahul-hadgal/",
+    "githubRepo": "https://github.com/Sysinfocus"
+  },
+  {
+    "name": "Your name could be here ...",
+    "country": "...",
+    "overall": "... years",
+    "blazor": "... years",
+    "jobType": "Consultant / Employee",
+    "fulltime": "Yes/No",
+    "remote": "Yes/No/Hybrid",
+    "linkedIn": "#",
+    "githubRepo": "#"
+  }
+]
