@@ -1,5 +1,5 @@
 ## Host on GitHub Pages
-Here are the deployment steps, assuming you already have a Blazor WebAssembly project in your GitHub repository. This guide focuses on the deployment process:
+<p class='muted'>Here are the deployment steps, assuming you already have a Blazor WebAssembly project in your GitHub repository. This guide focuses on the deployment process:</p>
 
 To automatically deploy your Blazor WebAssembly app to GitHub Pages whenever you push code to your repository, you can set up a **GitHub Actions workflow**. This way, the publishing and deployment process happens automatically. Below is a step-by-step guide on how to set this up:
 
