@@ -1,63 +1,102 @@
 ## Host on GitHub Pages
 Here are the deployment steps, assuming you already have a Blazor WebAssembly project in your GitHub repository. This guide focuses on the deployment process:
 
+To automatically deploy your Blazor WebAssembly app to GitHub Pages whenever you push code to your repository, you can set up a **GitHub Actions workflow**. This way, the publishing and deployment process happens automatically. Below is a step-by-step guide on how to set this up:
+
 ### Step 1: Modify the Base Href in `index.html`
 1. In your Blazor WebAssembly project, navigate to the `wwwroot/index.html` file.
-2. Modify the `<base>` tag to reflect your GitHub repository name. If your repository is named `repository-name`, change the `<base>` tag like this:
+2. Modify the `<base>` tag to reflect your GitHub repository name. For example, if your repository is named `repository-name`, set the base href like this:
 
    ```html
    <base href="/repository-name/">
    ```
 
-   This ensures that the app correctly handles paths when hosted on GitHub Pages.
+### Step 2: Create a GitHub Actions Workflow for Deployment
 
-### Step 2: Publish the Blazor WebAssembly App
-1. **Open a terminal** in your project’s root directory (where your `.csproj` file is).
-2. Run the following command to publish your app for production:
+1. **Go to your GitHub repository** where the Blazor WebAssembly app is located.
+2. **Create a `.github/workflows` directory** if it doesn’t already exist. Inside this folder, create a file called `deploy.yml` (or any name you prefer for your workflow file).
 
-   ```bash
-   dotnet publish -c Release -o ./bin/Release/net5.0/publish
+   The directory structure will look like this:
+   ```
+   .github/
+     └── workflows/
+         └── deploy.yml
    ```
 
-   This command creates a `publish` folder containing all the necessary static files (HTML, CSS, JS, etc.) that need to be hosted on GitHub Pages.
+3. **Add the following content to `deploy.yml`**:
 
-### Step 3: Push the Published Files to GitHub
-1. **Navigate to your repository** folder where the `publish` folder was created (if you're not already in that directory).
-2. Copy all the contents of the `bin/Release/net5.0/publish` directory into the root of your GitHub repository (or into a folder like `docs` if you want to use that for GitHub Pages).
+   ```yaml
+   name: Deploy Blazor WebAssembly App to GitHub Pages
 
-   ```bash
-   cp -r ./bin/Release/net5.0/publish/* /path/to/your/repository
+   on:
+     push:
+       branches:
+         - main  # Trigger the workflow only when pushing to the main branch
+
+   jobs:
+     build:
+       runs-on: ubuntu-latest
+
+       steps:
+         # Step 1: Checkout the code
+         - name: Checkout code
+           uses: actions/checkout@v3
+
+         # Step 2: Set up .NET SDK
+         - name: Set up .NET
+           uses: actions/setup-dotnet@v3
+           with:
+             dotnet-version: '6.0'  # Replace with the .NET version you're using
+
+         # Step 3: Restore dependencies
+         - name: Restore dependencies
+           run: dotnet restore
+
+         # Step 4: Publish the Blazor app to the `publish` directory
+         - name: Build and Publish Blazor WebAssembly app
+           run: |
+             dotnet publish -c Release -o ./publish
+
+         # Step 5: Deploy to GitHub Pages
+         - name: Deploy to GitHub Pages
+           uses: JamesIves/github-pages-deploy-action@v4
+           with:
+             branch: gh-pages  # Deploy to the gh-pages branch
+             folder: publish   # The folder to deploy (containing the Blazor app's build)
+             clean: true        # Clean the `gh-pages` branch before deployment
    ```
 
-3. **Commit and push the changes** to your GitHub repository:
+### Step 3: Configure GitHub Pages
 
-   ```bash
-   git add .
-   git commit -m "Deploy Blazor WebAssembly app to GitHub Pages"
-   git push origin main
-   ```
-
-### Step 4: Set up GitHub Pages
-1. **Go to your GitHub repository** and click on the **Settings** tab.
+1. **Go to the Settings of your repository**.
 2. Scroll down to the **GitHub Pages** section.
-3. Under **Source**, select either the root (`/`) or the `docs/` folder (if you chose to use the `docs/` folder).
-4. Click **Save**.
+3. Under **Source**, select the `gh-pages` branch.
+4. Save the changes.
 
-Your Blazor app will be deployed to GitHub Pages at:
+### Step 4: Push Code to GitHub
+
+Now, whenever you push your changes to the `main` branch of your repository, the GitHub Actions workflow will trigger and automatically:
+
+- Build and publish your Blazor WebAssembly app.
+- Deploy the contents of the `publish` folder to the `gh-pages` branch of your repository.
+
+### Step 5: Access Your App
+
+Once the workflow runs successfully, your app will be available at:
 
 ```
 https://username.github.io/repository-name/
 ```
 
-### Step 5: (Optional) Use a Custom Domain
-If you want to use a custom domain with GitHub Pages, follow these steps:
+If you're using a custom domain, make sure to set that up in the **GitHub Pages** section of the repository's settings as mentioned earlier.
 
-1. In the **GitHub Pages** section of your repository’s settings, enter your custom domain (e.g., `www.yourdomain.com`).
-2. Update your domain's DNS settings to point to GitHub Pages by creating a **CNAME** record that points to `username.github.io`.
-3. Create a `CNAME` file in your repository and add your custom domain (e.g., `www.yourdomain.com`) inside it.
+### Step 6: (Optional) Custom Domain
 
-### Step 6: Verify the Deployment
-1. Go to the URL `https://username.github.io/repository-name/` (or your custom domain) to see your Blazor WebAssembly app live on GitHub Pages.
-2. If there are any issues, check your browser’s console for errors related to loading resources or check the repository settings.
+If you want to use a custom domain, follow these steps:
+1. Add a `CNAME` file in the `publish` folder with the custom domain inside it (e.g., `www.yourdomain.com`).
+2. Update your domain registrar to point to GitHub Pages (`username.github.io`).
+3. In your GitHub repository, add the custom domain in the **GitHub Pages** section of the settings.
 
-That’s it! Your Blazor WebAssembly app is now deployed on GitHub Pages.
+### Conclusion
+
+Now, every time you push changes to the `main` branch, GitHub Actions will automatically build and deploy your Blazor WebAssembly app to GitHub Pages. You can monitor the deployment progress in the **Actions** tab of your GitHub repository.
