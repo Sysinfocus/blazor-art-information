@@ -22,16 +22,27 @@
     "githubRepo": "https://github.com/sardar97"
   },
   {
-  "name": "Francis Banini",
-  "country": "Ghana",
-  "overall": "12 years",
-  "blazor": "3.5 years",
-  "jobType": "Employee",
-  "fulltime": "Yes",
-  "remote": "Yes",
-  "linkedIn": "https://www.linkedin.com/in/frankbani",
-  "githubRepo": "https://github.com/franks1"
-},
+    "name": "Francis Banini",
+    "country": "Ghana",
+    "overall": "12 years",
+    "blazor": "3.5 years",
+    "jobType": "Employee",
+    "fulltime": "Yes",
+    "remote": "Yes",
+    "linkedIn": "https://www.linkedin.com/in/frankbani",
+    "githubRepo": "https://github.com/franks1"
+  },
+  {
+    "name": "Safi Ullah",
+    "country": "Pakistan",
+    "overall": "8 years",
+    "blazor": "5 years",
+    "jobType": "Consultant",
+    "fulltime": "Yes",
+    "remote": "Yes",
+    "linkedIn": "https://www.linkedin.com/in/ullahsafi",
+    "githubRepo": "https://github.com/safiullah7"
+  },
   {
     "name": "Your name could be here ...",
     "country": "...",
