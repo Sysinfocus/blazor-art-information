@@ -44,14 +44,14 @@
     "githubRepo": "https://github.com/safiullah7"
   },
   {
-    "name": "Your name could be here ...",
-    "country": "...",
-    "overall": "... years",
-    "blazor": "... years",
-    "jobType": "Consultant / Employee",
-    "fulltime": "Yes/No",
-    "remote": "Yes/No/Hybrid",
-    "linkedIn": "#",
-    "githubRepo": "#"
+    "name": "Muhammad Ashar",
+    "country": "Pakistan",
+    "overall": "4 years",
+    "blazor": "4 years",
+    "jobType": "Any",
+    "fulltime": "Yes",
+    "remote": "Yes",
+    "linkedIn": "https://www.linkedin.com/in/asharDev",
+    "githubRepo": "https://github.com/im-ashar"
   }
 ]
