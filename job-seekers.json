@@ -64,5 +64,16 @@
     "remote": "Yes",
     "linkedIn": "https://www.linkedin.com/in/dmo03",
     "githubRepo": "https://github.com/engdinamohamed"
+  },
+  {
+    "name": "Zayan Shaikh",
+    "country": "India",
+    "overall": "2 years",
+    "blazor": "2 years",
+    "jobType": "Employee",
+    "fulltime": "Yes",
+    "remote": "Yes",
+    "linkedIn": "https://www.linkedin.com/in/zayan-shaikh-692237240",
+    "githubRepo": "#"
   }
 ]
