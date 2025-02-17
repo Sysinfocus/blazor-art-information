@@ -53,5 +53,16 @@
     "remote": "Yes",
     "linkedIn": "https://www.linkedin.com/in/asharDev",
     "githubRepo": "https://github.com/im-ashar"
+  },
+  {
+    "name": "Dina Mohamed",
+    "country": "Egypt",
+    "overall": "12 years",
+    "blazor": "1 year",
+    "jobType": "Employee",
+    "fulltime": "Yes",
+    "remote": "Yes",
+    "linkedIn": "https://www.linkedin.com/in/dmo03",
+    "githubRepo": "https://github.com/engdinamohamed"
   }
 ]
