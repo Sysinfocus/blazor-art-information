@@ -2,8 +2,7 @@
   {
     "videos": [
       "QXxNlpjnulI",
-      "CpbRAWgFBRQ",
-      "walv3nLTJ5g",
+      "CpbRAWgFBRQ",      
       "3Ur79_kHVpo",
       "bV2MJ8zn640"
     ],
@@ -20,6 +19,15 @@
       "z7V-_JVF_Zo"
     ],
     "from": "dotnet",
-    "link": "http://www.youtube.com/@@dotnet"
+    "link": "http://www.youtube.com/@dotnet"
+  },
+  {
+    "videos": [
+      "vgCmkL4l0h8",
+      "walv3nLTJ5g",
+      "xuaF7U3oziA"      
+    ],
+    "from": "IAmTimCorey",
+    "link": "http://www.youtube.com/@IAmTimCorey"
   }
 ]
