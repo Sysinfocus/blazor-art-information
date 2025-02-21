@@ -2,8 +2,7 @@
 
 **What is Blazor?**
 
-Blazor is a modern front-end web framework based on HTML, CSS, and C# that helps you build web apps faster. With Blazor, build web apps using reusable components that can be run from both the client and the server so that you can deliver great web experiences. <a href='https://learn.microsoft.com/en-us/aspnet/core/blazor' target='_blank'>Learn more</a>
-
+Blazor is a modern front-end web framework based on HTML, CSS, and C# that helps you build web apps faster. With Blazor, build web apps using reusable components that can be run from both the client and the server so that you can deliver great web experiences. <a href='https://learn.microsoft.com/en-us/aspnet/core/blazor' target='_blank'>Learn more</a><br/><br/>
 
 **What are the different hosting models for Blazor?**
 - Blazor Server
