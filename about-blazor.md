@@ -33,3 +33,6 @@
 **When not to use Blazor at all?**
 - If you are building simple website, that don't require any .NET package.
 - When the website can be done using simple HTML, CSS and minimal JavaScript.
+
+**Where can I find more resources about Blazor?**
+- Apart from the resources available here, you can check out this <a href='https://github.com/AdrienTorris/awesome-blazor' target='_blank'>GitHub repo</a> by Adrien Torris which has a lot of information and resources for Blazor.
