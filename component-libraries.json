@@ -94,5 +94,13 @@
     "size": "2.78 MB",
     "isFree": true,
     "version": "1.1.1"
+  },
+  {
+    "link": "https://blazorui.bitplatform.dev/",
+    "name": "bit BlazorUI",
+    "publisher": "bit-foundation",
+    "size": "2.15 MB",
+    "isFree": true,
+    "version": "9.5.0"
   }
 ]
