@@ -1,46 +1,90 @@
 [
   {
     "link": "https://antblazor.com/",
-    "name": "AntBlazor"
+    "name": "AntBlazor",
+    "publisher": "ElderJames",
+    "size": "7.68 MB",
+    "isFree": true,
+    "version": "1.2.1"
   },
   {
     "link": "https://github.com/orgs/Blazored/",
-    "name": "Blazored"
+    "name": "Blazored",
+    "publisher": "Blazored",
+    "size": "-",
+    "isFree": true,
+    "version": "Multiple"
   },
   {
     "link": "https://blazorise.com/",
-    "name": "Blazorise"
+    "name": "Blazorise.Bootstrap5",
+    "publisher": "Megabit",
+    "size": "196 KB",
+    "isFree": true,
+    "version": "1.7.4"
   },
   {
     "link": "https://blazorstrap.io/",
-    "name": "BlazorStrap"
+    "name": "BlazorStrap.V5",
+    "publisher": "jbomhold3",
+    "size": "269 KB",
+    "isFree": true,
+    "version": "5.2.103.122024"
   },
   {
     "link": "https://www.fluentui-blazor.net/",
-    "name": "Fluent UI"
-  },
-  {
-    "link": "https://havit.blazor.eu/",
-    "name": "HAVIT Blazor"    
-  },
-  {
-    "link": "https://lumexui.org/",
-    "name": "LumexUI"
+    "name": "Fluent UI",
+    "publisher": "Microsoft",
+    "size": "1.99 MB",
+    "isFree": true,
+    "version": "4.11.5"
   },
   {
     "link": "https://www.matblazor.com/",
-    "name": "MatBlazor"
+    "name": "MatBlazor",
+    "publisher": "SamProf",
+    "size": "368 KB",
+    "isFree": true,
+    "version": "2.10.0"
   },
   {
     "link": "https://mudblazor.com/",
-    "name": "MudBlazor"
+    "name": "MudBlazor",
+    "publisher": "MudBlazor",
+    "size": "4.19 MB",
+    "isFree": true,
+    "version": "8.3.0"
   },
   {
     "link": "https://blazor.radzen.com/",
-    "name": "Radzen"
+    "name": "Radzen",
+    "publisher": "Radzen",
+    "size": "8.49 MB",
+    "isFree": true,
+    "version": "6.1.1"
   },
   {
     "link": "https://blazor.art/Tools/Simple-UI",
-    "name": "Sysinfocus simple/ui"
+    "name": "Sysinfocus simple/ui",
+    "publisher": "Sysinfocus",
+    "size": "841 KB",
+    "isFree": true,
+    "version": "0.0.2.4"
+  },
+  {
+    "link": "https://www.devexpress.com/blazor/",
+    "name": "DevExpress.Blazor.ProjectTemplates",
+    "publisher": "DevExpress",
+    "size": "2.58 MB",
+    "isFree": false,
+    "version": "24.2.5"
+  },
+  {
+    "link": "https://www.syncfusion.com/blazor-components",
+    "name": "Syncfusion.Blazor",
+    "publisher": "SyncfusionInc",
+    "size": "55.46 MB",
+    "isFree": false,
+    "version": "28.2.7"
   }
 ]
