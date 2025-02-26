@@ -1087,16 +1087,5 @@
     "hasMenu": false,
     "url": null,
     "action": "JoinDiscord"
-  },  
-  {
-    "section": "Connect",
-    "id": 602,
-    "parent": 0,
-    "name": "Buy me a coffee",
-    "icon": "coffee",
-    "isExpanded": false,
-    "hasMenu": false,
-    "url": "https://buymeacoffee.com/blazorart",
-    "action": null
   }
 ]
