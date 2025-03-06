@@ -652,6 +652,17 @@
     "section": "Tools",
     "id": 59,
     "parent": 5,
+    "name": "Sidebar",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": null,
+    "action": null
+  },  
+  {
+    "section": "Tools",
+    "id": 59,
+    "parent": 5,
     "name": "Signature",
     "icon": null,
     "isExpanded": false,
