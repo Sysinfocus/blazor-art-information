@@ -86,5 +86,16 @@
     "remote": "Yes",
     "linkedIn": "https://www.linkedin.com/in/charles-matvchuk",
     "githubRepo": "#"
+  },
+  {
+    "name": "Tad Carter",
+    "country": "United States",
+    "overall": "20+ years",
+    "blazor": "3+ years",
+    "jobType": "Any",
+    "fulltime": "Yes",
+    "remote": "Yes",
+    "linkedIn": "https://www.linkedin.com/in/tadcarter1964",
+    "githubRepo": "#"
   }
 ]
