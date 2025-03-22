@@ -548,6 +548,17 @@
     "hasMenu": false,
     "url": null,
     "action": null
+  },  
+  {
+    "section": "Tools",
+    "id": 49,
+    "parent": 5,
+    "name": "Pills",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": null,
+    "action": null
   },
   {
     "section": "Tools",
