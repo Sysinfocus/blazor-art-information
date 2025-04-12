@@ -505,6 +505,17 @@
     "url": null,
     "action": null
   },
+   {
+    "section": "Tools",
+    "id": 45,
+    "parent": 5,
+    "name": "MarkdownPreview",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": null,
+    "action": null
+  },
   {
     "section": "Tools",
     "id": 46,
