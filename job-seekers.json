@@ -97,5 +97,16 @@
     "remote": "Yes",
     "linkedIn": "https://www.linkedin.com/in/tadcarter1964",
     "githubRepo": "#"
+  },
+  {
+    "name": "Waleed Bensumaidea",
+    "country": "South Yemen",
+    "overall": "3 years",
+    "blazor": "2 years",
+    "jobType": "Employee",
+    "fulltime": "Yes",
+    "remote": "Yes",
+    "linkedIn": "https://www.linkedin.com/in/waleed-bensumaidea-891b23246",
+    "githubRepo": "https://github.com/WALEED-NET"
   }
 ]
