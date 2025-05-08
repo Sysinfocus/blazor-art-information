@@ -683,6 +683,17 @@
   },
   {
     "section": "Tools",
+    "id": 57,
+    "parent": 5,
+    "name": "ServerSentEvents",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": null,
+    "action": null
+  },
+  {
+    "section": "Tools",
     "id": 58,
     "parent": 5,
     "name": "Sheet",
