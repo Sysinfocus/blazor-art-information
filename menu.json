@@ -505,7 +505,7 @@
     "url": null,
     "action": null
   },
-   {
+  {
     "section": "Tools",
     "id": 45,
     "parent": 5,
@@ -559,7 +559,7 @@
     "hasMenu": false,
     "url": null,
     "action": null
-  },  
+  },
   {
     "section": "Tools",
     "id": 49,
@@ -713,7 +713,7 @@
     "hasMenu": false,
     "url": null,
     "action": null
-  },  
+  },
   {
     "section": "Tools",
     "id": 59,
@@ -1009,6 +1009,61 @@
     "isExpanded": false,
     "hasMenu": false,
     "url": "/Tools/CodeGeneration/",
+    "action": null
+  },
+  {
+    "section": "Tools",
+    "id": 2100,
+    "parent": 0,
+    "name": "Simple/ui Reporting",
+    "icon": "docs",
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": null,
+    "action": null
+  },
+  {
+    "section": "Tools",
+    "id": 2101,
+    "parent": 2100,
+    "name": "Students Test Report",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": "Tools/Reporting/StudentsTestReport",
+    "action": null
+  },
+  {
+    "section": "Tools",
+    "id": 2102,
+    "parent": 2100,
+    "name": "Users Report",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": "Tools/Reporting/UsersReport",
+    "action": null
+  },
+  {
+    "section": "Tools",
+    "id": 2102,
+    "parent": 2100,
+    "name": "User Id Card",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": "Tools/Reporting/UserIdCard",
+    "action": null
+  },
+  {
+    "section": "Tools",
+    "id": 2103,
+    "parent": 2100,
+    "name": "Certificates",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": "Tools/Reporting/Certificates",
     "action": null
   },
   {
