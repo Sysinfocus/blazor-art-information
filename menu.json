@@ -1067,6 +1067,17 @@
     "action": null
   },
   {
+    "section": "Tools",
+    "id": 2104,
+    "parent": 2100,
+    "name": "Invoice Sample",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": "Tools/Reporting/InvoiceSample",
+    "action": null
+  },
+  {
     "section": "Resources",
     "id": 300,
     "parent": 0,
