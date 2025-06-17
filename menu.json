@@ -1078,6 +1078,17 @@
     "action": null
   },
   {
+    "section": "Tools",
+    "id": 2105,
+    "parent": 2100,
+    "name": "Students Test Charts",
+    "icon": null,
+    "isExpanded": false,
+    "hasMenu": false,
+    "url": "Tools/Reporting/StudentsTestCharts",
+    "action": null
+  },
+  {
     "section": "Resources",
     "id": 300,
     "parent": 0,
