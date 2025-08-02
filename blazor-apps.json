@@ -28,5 +28,15 @@
     "backend": ".NET, MongoDB, Redis",
     "type": "Website, PWA",
     "hosting": "Linux VPS"
+  },
+  {
+    "link": "https://app.inorout.site/",
+    "image": "https://app.inorout.site/icon-192.png",
+    "name": "Money IN/OUT",
+    "about": "It is a simple personal money tracking app for all your money inflows and outflows.",
+    "frontend": "Blazor WebAssembly",
+    "backend": "-",
+    "type": "Website, PWA",
+    "hosting": "Linux VPS"
   }
 ]
