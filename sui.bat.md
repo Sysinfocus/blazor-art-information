@@ -40,3 +40,15 @@ powershell -NoProfile -Command "(Get-Content './%1.App/App.razor') -replace '<Fo
 
 powershell -NoProfile -Command "(Get-Content './%1.App/Layout/MainLayout.razor') -replace '@Body', ('<div class=""""container"""" @onclick=""""@initialization.HandleMainLayoutClickEvent"""">' + [System.Environment]::NewLine + [char]9 + '@Body' + [System.Environment]::NewLine + '</div>' + [System.Environment]::NewLine + [System.Environment]::NewLine + '@code {' + [System.Environment]::NewLine + [char]9 + 'protected override async Task OnAfterRenderAsync(bool firstRender) ' + [System.Environment]::NewLine + [char]9 + '{' + [System.Environment]::NewLine + [char]9 + [char]9 + 'if (firstRender) await initialization.InitializeTheme();' + [System.Environment]::NewLine + [char]9 + '}' + [System.Environment]::NewLine + '}') | Set-Content './%1.App/Layout/MainLayout.razor'"
 ```
+
+
+## How to use
+1. Create a .bat file for eg: `sui.bat` with the above code in a folder where you want to create the solution and project.
+2. Run `sui.bat Test` - Test is the solution name and the app will be Test.App
+3. Once created, you can run project with the code `dotnet run --project ./Test.App/`
+4. That's it. You now have a complete app with component library wired-up.
+
+## Minimum Requirements
+1. .NET SDK (version 9.0 and above recommended)
+2. Windows 10 and above
+3. Powershell (should be available by default)
