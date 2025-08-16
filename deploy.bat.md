@@ -40,5 +40,13 @@ echo Done.
 2. FolderProfile created once with appropriate options. So when you publish it uses to publish.
 3. Powershell on your Windows machine (10 or 11).
 4. Linux VPS setup SSH profile to autologin.
-5. NGINX conf and service created to run.
-6. Unzip application on Linux.
+   - Create a key in .ssh folder of your Windows PC using `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+   - Copy the Public Key to Your VPS using `ssh-copy-id user@your_vps_ip`
+6. NGINX conf and service created to run.
+   - Create a .conf file in `/etc/nginx/conf.d/your-app.conf`
+   - Create a .service file in `/etc/systemd/system/your-app.service`
+8. Unzip application on Linux.
+   - If not already installed, install using `apt install Unzip`
+
+Note: Use `sudo` if elevated permission is required.
+     
