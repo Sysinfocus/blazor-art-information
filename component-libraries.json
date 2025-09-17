@@ -69,7 +69,7 @@
     "publisher": "Sysinfocus",
     "size": "903 KB",
     "isFree": true,
-    "version": "0.0.3.3"
+    "version": "0.0.3.4"
   },
   {
     "link": "https://www.devexpress.com/blazor/",
@@ -104,3 +104,4 @@
     "version": "9.5.0"
   }
 ]
+
