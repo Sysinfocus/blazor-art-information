@@ -1,0 +1,150 @@
+{
+    "topic": "Google Cloud Services",
+    "hue": 20,
+    "slides": [
+        {
+            "title": "Compute Engine",
+            "description": "Provides scalable virtual machines running on Google infrastructure. It offers full control over operating systems and networking. Commonly used for flexible compute workloads."
+        },
+        {
+            "title": "App Engine",
+            "description": "Platform-as-a-Service for building and hosting applications. It automatically manages scaling and infrastructure. Developers focus mainly on application logic."
+        },
+        {
+            "title": "Cloud Functions",
+            "description": "Serverless compute service for event-driven workloads. It scales automatically and charges per execution. Ideal for lightweight microservices."
+        },
+        {
+            "title": "Cloud Run",
+            "description": "Fully managed container execution platform. It runs stateless containers with automatic scaling. Used for modern cloud-native applications."
+        },
+        {
+            "title": "GKE",
+            "description": "Managed Kubernetes service. It simplifies cluster deployment and operations. Commonly used for containerized workloads."
+        },
+        {
+            "title": "VPC",
+            "description": "Global virtual private cloud networking service. It supports secure, private connectivity. Used for multi-region architectures."
+        },
+        {
+            "title": "Cloud Load Balancing",
+            "description": "Fully managed, global load balancing service. It distributes traffic efficiently across regions. Improves availability and performance."
+        },
+        {
+            "title": "Cloud DNS",
+            "description": "Scalable and reliable DNS service. It supports low-latency domain resolution. Integrated with Google Cloud infrastructure."
+        },
+        {
+            "title": "Cloud CDN",
+            "description": "Content delivery network for fast global content delivery. It reduces latency and improves user experience. Often used for web and media applications."
+        },
+        {
+            "title": "Cloud Storage",
+            "description": "Unified object storage service with multiple storage classes. It offers high durability and scalability. Used for backups, data lakes, and static content."
+        },
+        {
+            "title": "Persistent Disk",
+            "description": "Block storage for virtual machines. It provides high performance and reliability. Commonly used for databases and application data."
+        },
+        {
+            "title": "Filestore",
+            "description": "Managed file storage service for applications. It supports shared access using NFS. Used for stateful workloads."
+        },
+        {
+            "title": "Cloud SQL",
+            "description": "Managed relational database service. It supports MySQL, PostgreSQL, and SQL Server. Handles backups, patching, and scaling."
+        },
+        {
+            "title": "Cloud Spanner",
+            "description": "Globally distributed relational database. It provides strong consistency and horizontal scalability. Used for mission-critical systems."
+        },
+        {
+            "title": "Firestore",
+            "description": "Scalable NoSQL document database. It supports real-time synchronization. Commonly used for mobile and web apps."
+        },
+        {
+            "title": "Bigtable",
+            "description": "Wide-column NoSQL database for large-scale workloads. It delivers low-latency access at scale. Used for analytics and time-series data."
+        },
+        {
+            "title": "BigQuery",
+            "description": "Serverless data warehouse for analytics. It enables fast SQL queries on massive datasets. Used for business intelligence and data analysis."
+        },
+        {
+            "title": "Memorystore",
+            "description": "In-memory data store service for Redis and Memcached. It improves application performance through caching. Used for low-latency access."
+        },
+        {
+            "title": "Pub Sub",
+            "description": "Asynchronous messaging service for event ingestion. It supports global scalability. Used for event-driven architectures."
+        },
+        {
+            "title": "Dataflow",
+            "description": "Fully managed stream and batch data processing service. It supports Apache Beam pipelines. Used for real-time analytics."
+        },
+        {
+            "title": "Dataproc",
+            "description": "Managed Apache Spark and Hadoop service. It simplifies big data processing. Used for legacy and batch analytics workloads."
+        },
+        {
+            "title": "API Gateway",
+            "description": "Managed service for creating and securing APIs. It handles authentication and traffic control. Used to expose backend services."
+        },
+        {
+            "title": "Endpoints",
+            "description": "API management and monitoring service. It provides logging and security. Used for REST API management."
+        },
+        {
+            "title": "IAM",
+            "description": "Identity and access management service. It controls permissions for users and services. Used to secure Google Cloud resources."
+        },
+        {
+            "title": "Secret Manager",
+            "description": "Secure storage for sensitive configuration data. It supports versioning and access control. Used for managing application secrets."
+        },
+        {
+            "title": "KMS",
+            "description": "Managed encryption key service. It enables encryption at rest and in transit. Integrated with Google Cloud services."
+        },
+        {
+            "title": "Cloud Monitoring",
+            "description": "Monitoring and observability service for resources and applications. It collects metrics and alerts. Used to maintain system reliability."
+        },
+        {
+            "title": "Cloud Logging",
+            "description": "Centralized logging service for applications and infrastructure. It supports advanced querying. Used for troubleshooting and audits."
+        },
+        {
+            "title": "Cloud Trace",
+            "description": "Distributed tracing service. It analyzes latency and performance bottlenecks. Used for microservice architectures."
+        },
+        {
+            "title": "Deployment Manager",
+            "description": "Infrastructure as code service for GCP. It automates resource provisioning using templates. Used for repeatable deployments."
+        },
+        {
+            "title": "Cloud Build",
+            "description": "Continuous integration and build service. It compiles, tests, and packages code. Used in CI/CD pipelines."
+        },
+        {
+            "title": "Artifact Registry",
+            "description": "Managed repository for container images and packages. It secures and stores build artifacts. Used in DevOps workflows."
+        },
+        {
+            "title": "Vertex AI",
+            "description": "Unified machine learning platform. It supports training, deployment, and MLOps. Used for scalable AI solutions."
+        },
+        {
+            "title": "Vision AI",
+            "description": "Image analysis and computer vision service. It detects objects and text. Used for visual intelligence applications."
+        },
+        {
+            "title": "Speech to Text",
+            "description": "Speech recognition service. It converts audio into text. Used for transcription and voice-enabled apps."
+        },
+        {
+            "title": "Natural Language",
+            "description": "Text analysis and NLP service. It extracts entities and sentiment. Used for document and content analysis."
+        }
+    ]
+}
