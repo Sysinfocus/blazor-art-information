@@ -1,0 +1,86 @@
+{
+    "topic": "Google Cloud Services",
+    "hue": 320,
+    "slides": [
+        {
+            "title": "Albert Einstein",
+            "description": "Life is like riding a bicycle. To keep your balance, you must keep moving."
+        },
+        {
+            "title": "Mahatma Gandhi",
+            "description": "Be the change that you wish to see in the world."
+        },
+        {
+            "title": "Oscar Wilde",
+            "description": "Be yourself; everyone else is already taken."
+        },
+        {
+            "title": "Nelson Mandela",
+            "description": "It always seems impossible until it’s done."
+        },
+        {
+            "title": "Confucius",
+            "description": "It does not matter how slowly you go as long as you do not stop."
+        },
+        {
+            "title": "Mark Twain",
+            "description": "The secret of getting ahead is getting started."
+        },
+        {
+            "title": "Eleanor Roosevelt",
+            "description": "The future belongs to those who believe in the beauty of their dreams."
+        },
+        {
+            "title": "Steve Jobs",
+            "description": "Your time is limited, so don’t waste it living someone else’s life."
+        },
+        {
+            "title": "Abraham Lincoln",
+            "description": "Whatever you are, be a good one."
+        },
+        {
+            "title": "Aristotle",
+            "description": "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+        },
+        {
+            "title": "Helen Keller",
+            "description": "The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart."
+        },
+        {
+            "title": "Sun Tzu",
+            "description": "In the midst of chaos, there is also opportunity."
+        },
+        {
+            "title": "Henry Ford",
+            "description": "Whether you think you can, or you think you can’t — you’re right."
+        },
+        {
+            "title": "Socrates",
+            "description": "The only true wisdom is in knowing you know nothing."
+        },
+        {
+            "title": "Winston Churchill",
+            "description": "Success is not final, failure is not fatal: it is the courage to continue that counts."
+        },
+        {
+            "title": "Ralph Waldo Emerson",
+            "description": "Do not go where the path may lead, go instead where there is no path and leave a trail."
+        },
+        {
+            "title": "Leonardo da Vinci",
+            "description": "Simplicity is the ultimate sophistication."
+        },
+        {
+            "title": "Mother Teresa",
+            "description": "Not all of us can do great things. But we can do small things with great love."
+        },
+        {
+            "title": "Plato",
+            "description": "The beginning is the most important part of the work."
+        },
+        {
+            "title": "Benjamin Franklin",
+            "description": "Tell me and I forget. Teach me and I remember. Involve me and I learn."
+        }
+    ]
+}
