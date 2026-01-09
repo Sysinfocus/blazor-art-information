@@ -1,0 +1,186 @@
+{
+    "topic": "AWS Services",
+    "hue": 280,
+    "slides": [
+        {
+            "title": "EC2",
+            "description": "Provides resizable virtual servers in the cloud. It gives full control over compute resources and operating systems. Commonly used for flexible and scalable workloads."
+        },
+        {
+            "title": "Lambda",
+            "description": "Serverless compute service that runs code in response to events. It automatically scales and charges per execution. Ideal for event-driven and microservice architectures."
+        },
+        {
+            "title": "Elastic Beanstalk",
+            "description": "Platform-as-a-Service for deploying web applications. It manages infrastructure, scaling, and monitoring. Developers focus mainly on application code."
+        },
+        {
+            "title": "ECS",
+            "description": "Managed container orchestration service. It allows running Docker containers without managing servers. Integrates tightly with other AWS services."
+        },
+        {
+            "title": "EKS",
+            "description": "Managed Kubernetes service on AWS. It simplifies running Kubernetes clusters at scale. Used for portable and cloud-native workloads."
+        },
+        {
+            "title": "Lightsail",
+            "description": "Simplified cloud platform for small applications. It bundles compute, storage, and networking. Ideal for quick deployments and small teams."
+        },
+        {
+            "title": "VPC",
+            "description": "Isolated virtual network within AWS. It enables control over IP ranges, subnets, and routing. Used for secure networking architectures."
+        },
+        {
+            "title": "Elastic Load Balancer",
+            "description": "Distributes incoming traffic across multiple targets. It improves fault tolerance and availability. Supports Layer 4 and Layer 7 routing."
+        },
+        {
+            "title": "Route 53",
+            "description": "Scalable DNS and domain management service. It offers health checks and routing policies. Used for high availability and global routing."
+        },
+        {
+            "title": "CloudFront",
+            "description": "Global content delivery network service. It caches content closer to users for low latency. Commonly used for web and media delivery."
+        },
+        {
+            "title": "S3",
+            "description": "Object storage service for virtually unlimited data. It offers high durability and scalability. Used for backups, data lakes, and static content."
+        },
+        {
+            "title": "EBS",
+            "description": "Block storage for EC2 instances. It provides persistent, high-performance storage. Commonly used for databases and application data."
+        },
+        {
+            "title": "EFS",
+            "description": "Fully managed file storage service. It supports shared access across multiple instances. Used for scalable file-based workloads."
+        },
+        {
+            "title": "Glacier",
+            "description": "Low-cost storage for archival data. It is optimized for infrequent access. Used for compliance and long-term backups."
+        },
+        {
+            "title": "RDS",
+            "description": "Managed relational database service. It supports engines like MySQL, PostgreSQL, and SQL Server. Handles backups, scaling, and patching."
+        },
+        {
+            "title": "Aurora",
+            "description": "High-performance relational database compatible with MySQL and PostgreSQL. It offers improved scalability and availability. Used for enterprise-grade applications."
+        },
+        {
+            "title": "DynamoDB",
+            "description": "Fully managed NoSQL key-value database. It provides single-digit millisecond performance at scale. Used for high-throughput applications."
+        },
+        {
+            "title": "Redshift",
+            "description": "Fully managed data warehouse service. It is optimized for large-scale analytics queries. Commonly used in business intelligence workloads."
+        },
+        {
+            "title": "ElastiCache",
+            "description": "In-memory data store for Redis and Memcached. It improves application performance through caching. Used for low-latency access patterns."
+        },
+        {
+            "title": "SQS",
+            "description": "Fully managed message queue service. It enables decoupled and asynchronous communication. Used for background processing."
+        },
+        {
+            "title": "SNS",
+            "description": "Publish-subscribe messaging service. It enables fan-out notifications to multiple subscribers. Commonly used for alerts and event-driven systems."
+        },
+        {
+            "title": "EventBridge",
+            "description": "Event bus service for application integration. It enables loosely coupled event-driven architectures. Supports SaaS and AWS events."
+        },
+        {
+            "title": "Step Functions",
+            "description": "Serverless workflow orchestration service. It coordinates multiple AWS services into state machines. Used for complex business processes."
+        },
+        {
+            "title": "API Gateway",
+            "description": "Fully managed service for creating and managing APIs. It supports REST, HTTP, and WebSocket APIs. Commonly used with Lambda functions."
+        },
+        {
+            "title": "IAM",
+            "description": "Identity and access management service. It controls permissions and authentication. Used to secure AWS resources."
+        },
+        {
+            "title": "Cognito",
+            "description": "User identity and authentication service. It supports user sign-up and sign-in. Commonly used for web and mobile applications."
+        },
+        {
+            "title": "Secrets Manager",
+            "description": "Secure storage for credentials and secrets. It supports automatic rotation. Used to protect sensitive application data."
+        },
+        {
+            "title": "KMS",
+            "description": "Managed encryption key service. It enables data encryption at rest and in transit. Integrated with most AWS services."
+        },
+        {
+            "title": "CloudWatch",
+            "description": "Monitoring and observability service. It collects metrics, logs, and alarms. Used to maintain system health."
+        },
+        {
+            "title": "CloudTrail",
+            "description": "Tracks API activity and account changes. It provides audit logs for governance. Used for security and compliance."
+        },
+        {
+            "title": "X-Ray",
+            "description": "Distributed tracing service. It helps analyze and debug microservices. Used for performance optimization."
+        },
+        {
+            "title": "CloudFormation",
+            "description": "Infrastructure as code service. It allows provisioning AWS resources using templates. Used for repeatable deployments."
+        },
+        {
+            "title": "CodeCommit",
+            "description": "Managed Git-based source control service. It integrates with AWS security and tooling. Used for private repositories."
+        },
+        {
+            "title": "CodeBuild",
+            "description": "Fully managed build service. It compiles code and runs tests. Used in CI pipelines."
+        },
+        {
+            "title": "CodeDeploy",
+            "description": "Automates application deployments. It supports EC2, Lambda, and containers. Reduces deployment downtime."
+        },
+        {
+            "title": "CodePipeline",
+            "description": "Continuous integration and delivery service. It automates build, test, and deploy stages. Used for DevOps workflows."
+        },
+        {
+            "title": "Athena",
+            "description": "Serverless interactive query service. It analyzes data directly in S3 using SQL. Used for ad-hoc analytics."
+        },
+        {
+            "title": "Glue",
+            "description": "Managed ETL service for data integration. It prepares and transforms data for analytics. Commonly used in data lakes."
+        },
+        {
+            "title": "Lake Formation",
+            "description": "Data lake management and security service. It simplifies data ingestion and access control. Used for governed analytics."
+        },
+        {
+            "title": "QuickSight",
+            "description": "Business intelligence and visualization service. It provides interactive dashboards. Used for data-driven insights."
+        },
+        {
+            "title": "SageMaker",
+            "description": "End-to-end machine learning platform. It supports model building, training, and deployment. Used for scalable ML workloads."
+        },
+        {
+            "title": "Rekognition",
+            "description": "Image and video analysis service. It detects objects, faces, and text. Used for computer vision applications."
+        },
+        {
+            "title": "Comprehend",
+            "description": "Natural language processing service. It extracts insights from text. Used for sentiment and entity analysis."
+        },
+        {
+            "title": "Textract",
+            "description": "Automated document text extraction service. It analyzes scanned documents and forms. Used for document processing."
+        },
+        {
+            "title": "Bedrock",
+            "description": "Managed service for foundation models. It enables generative AI without infrastructure management. Used for AI-powered applications."
+        }
+    ]
+}
