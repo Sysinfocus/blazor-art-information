@@ -1,0 +1,154 @@
+{
+    "topic": "Azure Services",
+    "hue": 0,
+    "slides": [
+        {
+            "title": "Virtual Machines",
+            "description": "Provides on-demand, scalable Windows and Linux virtual machines. It supports full control over OS, networking, and storage. Commonly used for lift-and-shift workloads."
+        },
+        {
+            "title": "App Service",
+            "description": "Fully managed platform for building and hosting web apps and APIs. It supports .NET, Java, Node.js, Python, and PHP. Built-in scaling and security simplify deployment."
+        },
+        {
+            "title": "Azure Functions",
+            "description": "Serverless compute service that runs code in response to events. It scales automatically and charges only for execution time. Ideal for event-driven and microservice architectures."
+        },
+        {
+            "title": "Container Apps",
+            "description": "Serverless container hosting for microservices and APIs. It abstracts Kubernetes complexity while supporting Dapr and scaling. Suitable for cloud-native workloads."
+        },
+        {
+            "title": "Kubernetes Service",
+            "description": "Managed Kubernetes service for deploying containerized applications. It simplifies cluster management and scaling. Commonly used for enterprise-grade container orchestration."
+        },
+        {
+            "title": "Virtual Network",
+            "description": "Provides private network isolation in Azure. It enables secure communication between resources. Supports hybrid connectivity with on-premises networks."
+        },
+        {
+            "title": "Load Balancer",
+            "description": "Distributes incoming network traffic across resources. It improves availability and reliability. Works at Layer 4 for high-performance scenarios."
+        },
+        {
+            "title": "Application Gateway",
+            "description": "Web traffic load balancer with application-level routing. It includes Web Application Firewall capabilities. Used to protect and optimize HTTP workloads."
+        },
+        {
+            "title": "Azure DNS",
+            "description": "Hosts and manages DNS domains using Azure infrastructure. It provides high availability and performance. Integrates seamlessly with other Azure services."
+        },
+        {
+            "title": "Blob Storage",
+            "description": "Object storage for unstructured data such as images and videos. It is highly scalable and cost-effective. Commonly used for backups and content delivery."
+        },
+        {
+            "title": "File Storage",
+            "description": "Fully managed file shares in the cloud. It supports SMB and NFS protocols. Useful for lift-and-shift file server scenarios."
+        },
+        {
+            "title": "Queue Storage",
+            "description": "Message storage for reliable asynchronous communication. It helps decouple application components. Suitable for background processing tasks."
+        },
+        {
+            "title": "Table Storage",
+            "description": "NoSQL key-value storage for structured data. It offers fast access and scalability. Used for lightweight data storage needs."
+        },
+        {
+            "title": "SQL Database",
+            "description": "Fully managed relational database based on SQL Server. It offers high availability and automated backups. Ideal for cloud-native applications."
+        },
+        {
+            "title": "SQL Managed Instance",
+            "description": "Managed SQL Server instance with near-full compatibility. It supports migration from on-prem SQL Server. Used for enterprise workloads."
+        },
+        {
+            "title": "Cosmos DB",
+            "description": "Globally distributed, multi-model NoSQL database. It offers low latency and elastic scalability. Supports APIs like SQL, MongoDB, and Cassandra."
+        },
+        {
+            "title": "MySQL Database",
+            "description": "Managed MySQL database service with built-in scaling. It provides automated backups and security. Suitable for open-source workloads."
+        },
+        {
+            "title": "PostgreSQL Database",
+            "description": "Fully managed PostgreSQL database service. It supports high availability and extensions. Often used for advanced data workloads."
+        },
+        {
+            "title": "Service Bus",
+            "description": "Enterprise messaging service for reliable communication. It supports queues and topics with transactions. Used for decoupled system architectures."
+        },
+        {
+            "title": "Event Grid",
+            "description": "Event routing service for reactive architectures. It enables near real-time event delivery. Commonly used with serverless applications."
+        },
+        {
+            "title": "Event Hubs",
+            "description": "Big data streaming platform and event ingestion service. It can handle millions of events per second. Used for telemetry and analytics pipelines."
+        },
+        {
+            "title": "Logic Apps",
+            "description": "Low-code workflow automation service. It integrates with hundreds of connectors. Used for business process automation."
+        },
+        {
+            "title": "API Management",
+            "description": "Manages, secures, and publishes APIs. It provides throttling, monitoring, and authentication. Used as an API gateway solution."
+        },
+        {
+            "title": "Azure DevOps",
+            "description": "Set of tools for CI/CD, repositories, and project management. It supports Git and automated pipelines. Widely used for DevOps workflows."
+        },
+        {
+            "title": "Monitor",
+            "description": "Centralized monitoring and diagnostics service. It collects metrics, logs, and alerts. Helps maintain application reliability."
+        },
+        {
+            "title": "Application Insights",
+            "description": "Application performance monitoring service. It provides telemetry and dependency tracking. Used to detect and diagnose issues quickly."
+        },
+        {
+            "title": "Log Analytics",
+            "description": "Query-based analytics for logs and metrics. It uses Kusto Query Language. Commonly paired with Azure Monitor."
+        },
+        {
+            "title": "Active Directory",
+            "description": "Cloud-based identity and access management service. It supports authentication and authorization. Used to secure Azure and SaaS applications."
+        },
+        {
+            "title": "Key Vault",
+            "description": "Secure storage for secrets, keys, and certificates. It integrates with Azure services and applications. Helps meet security and compliance requirements."
+        },
+        {
+            "title": "Defender Cloud",
+            "description": "Security posture management and threat protection service. It provides vulnerability assessments and alerts. Used to improve cloud security."
+        },
+        {
+            "title": "Policy",
+            "description": "Governance service to enforce organizational standards. It ensures compliance across resources. Used for cost and security control."
+        },
+        {
+            "title": "Data Factory",
+            "description": "Data integration and ETL service. It orchestrates data movement and transformation. Commonly used in analytics pipelines."
+        },
+        {
+            "title": "Synapse Analytics",
+            "description": "Analytics service combining data warehousing and big data. It supports SQL and Spark workloads. Used for large-scale analytics."
+        },
+        {
+            "title": "Data Lake",
+            "description": "Optimized storage for big data analytics. It supports hierarchical namespaces. Used with analytics and AI workloads."
+        },
+        {
+            "title": "Machine Learning",
+            "description": "End-to-end service for building and deploying ML models. It supports Python and popular ML frameworks. Used for predictive analytics."
+        },
+        {
+            "title": "Cognitive Services",
+            "description": "Prebuilt AI APIs for vision, speech, and language. It enables AI without deep ML expertise. Used to add intelligence to applications."
+        },
+        {
+            "title": "OpenAI Service",
+            "description": "Managed access to OpenAI models on Azure. It supports generative AI and embeddings. Used for chatbots and AI-driven applications."
+        }
+    ]
+}
