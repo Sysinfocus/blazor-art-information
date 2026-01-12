@@ -8,17 +8,7 @@
     "backend": "-",
     "type": "Website, PWA",
     "hosting": "Netlify"
-  },
-  {
-    "link": "https://onlinetest.online/",
-    "image": "https://onlinetest.online/android-chrome-192x192.png",
-    "name": "Online Test",
-    "about": "an app that gives you free access to test your knowledge in GK, Technology, Mathematics, etc.",
-    "frontend": "Blazor WebAssembly",
-    "backend": "-",
-    "type": "Website, PWA",
-    "hosting": "Linux VPS"
-  },
+  },  
   {
     "link": "https://1-800.biz/",
     "image": "https://app.1-800.biz/android-chrome-192x192.png",
